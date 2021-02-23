@@ -1,0 +1,78 @@
+Attaching to selenium-hub, docker_chrome_1, docker_firefox_1
+[32mselenium-hub    |[0m 2021-02-22 05:06:21,033 INFO Included extra file "/etc/supervisor/conf.d/selenium-grid-hub.conf" during parsing
+[32mselenium-hub    |[0m 2021-02-22 05:06:21,035 INFO supervisord started with pid 7
+[36mchrome_1        |[0m 2021-02-22 05:06:21,765 INFO Included extra file "/etc/supervisor/conf.d/selenium.conf" during parsing
+[36mchrome_1        |[0m 2021-02-22 05:06:21,766 INFO supervisord started with pid 7
+[33mfirefox_1       |[0m 2021-02-22 05:06:21,987 INFO Included extra file "/etc/supervisor/conf.d/selenium.conf" during parsing
+[33mfirefox_1       |[0m 2021-02-22 05:06:21,990 INFO supervisord started with pid 7
+[32mselenium-hub    |[0m 2021-02-22 05:06:22,039 INFO spawned: 'selenium-grid-hub' with pid 10
+[32mselenium-hub    |[0m Starting Selenium Grid Hub...
+[32mselenium-hub    |[0m 2021-02-22 05:06:22,046 INFO success: selenium-grid-hub entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+[32mselenium-hub    |[0m 05:06:22.644 INFO [LoggingOptions.getTracer] - Using OpenTelemetry for tracing
+[32mselenium-hub    |[0m 05:06:22.645 INFO [LoggingOptions.createTracer] - Using OpenTelemetry for tracing
+[32mselenium-hub    |[0m 05:06:22.731 INFO [BoundZmqEventBus.<init>] - XPUB binding to [binding to tcp://*:4442, advertising as tcp://172.19.0.2:4442], XSUB binding to [binding to tcp://*:4443, advertising as tcp://172.19.0.2:4443]
+[36mchrome_1        |[0m 2021-02-22 05:06:22,769 INFO spawned: 'xvfb' with pid 10
+[36mchrome_1        |[0m 2021-02-22 05:06:22,771 INFO spawned: 'vnc' with pid 11
+[36mchrome_1        |[0m 2021-02-22 05:06:22,773 INFO spawned: 'selenium-node' with pid 12
+[32mselenium-hub    |[0m 05:06:22.778 INFO [UnboundZmqEventBus.<init>] - Connecting to tcp://172.19.0.2:4442 and tcp://172.19.0.2:4443
+[32mselenium-hub    |[0m 05:06:22.933 INFO [UnboundZmqEventBus.<init>] - Sockets created
+[32mselenium-hub    |[0m 05:06:22.952 INFO [UnboundZmqEventBus.lambda$new$6] - Bus started
+[33mfirefox_1       |[0m 2021-02-22 05:06:22,993 INFO spawned: 'xvfb' with pid 10
+[33mfirefox_1       |[0m 2021-02-22 05:06:22,996 INFO spawned: 'vnc' with pid 11
+[33mfirefox_1       |[0m 2021-02-22 05:06:22,997 INFO spawned: 'selenium-node' with pid 12
+[36mchrome_1        |[0m 2021-02-22 05:06:23,084 INFO success: xvfb entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+[36mchrome_1        |[0m 2021-02-22 05:06:23,085 INFO success: vnc entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+[36mchrome_1        |[0m 2021-02-22 05:06:23,085 INFO success: selenium-node entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+[32mselenium-hub    |[0m 05:06:23.151 INFO [BoundZmqEventBus.<init>] - Event bus ready
+[33mfirefox_1       |[0m 2021-02-22 05:06:23,396 INFO success: xvfb entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+[33mfirefox_1       |[0m 2021-02-22 05:06:23,396 INFO success: vnc entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+[33mfirefox_1       |[0m 2021-02-22 05:06:23,396 INFO success: selenium-node entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+[32mselenium-hub    |[0m 05:06:25.110 INFO [Hub.execute] - Started Selenium hub 4.0.0-alpha-7 (revision bd15e4e88a): http://172.19.0.2:4444
+[36mchrome_1        |[0m 05:06:25.127 INFO [LoggingOptions.getTracer] - Using OpenTelemetry for tracing
+[36mchrome_1        |[0m 05:06:25.129 INFO [LoggingOptions.createTracer] - Using OpenTelemetry for tracing
+[36mchrome_1        |[0m 05:06:25.400 INFO [UnboundZmqEventBus.<init>] - Connecting to tcp://selenium-hub:4442 and tcp://selenium-hub:4443
+[33mfirefox_1       |[0m 05:06:25.453 INFO [LoggingOptions.getTracer] - Using OpenTelemetry for tracing
+[33mfirefox_1       |[0m 05:06:25.464 INFO [LoggingOptions.createTracer] - Using OpenTelemetry for tracing
+[36mchrome_1        |[0m 05:06:25.614 INFO [UnboundZmqEventBus.<init>] - Sockets created
+[36mchrome_1        |[0m 05:06:25.622 INFO [UnboundZmqEventBus.lambda$new$6] - Bus started
+[33mfirefox_1       |[0m 05:06:25.689 INFO [UnboundZmqEventBus.<init>] - Connecting to tcp://selenium-hub:4442 and tcp://selenium-hub:4443
+[33mfirefox_1       |[0m 05:06:25.830 INFO [UnboundZmqEventBus.<init>] - Sockets created
+[33mfirefox_1       |[0m 05:06:25.847 INFO [UnboundZmqEventBus.lambda$new$6] - Bus started
+[36mchrome_1        |[0m 05:06:25.855 INFO [NodeServer.execute] - Reporting self as: http://172.19.0.3:5555
+[36mchrome_1        |[0m 05:06:25.859 INFO [LoggingOptions.getTracer] - Using OpenTelemetry for tracing
+[36mchrome_1        |[0m 05:06:25.865 INFO [UnboundZmqEventBus.<init>] - Connecting to tcp://selenium-hub:4442 and tcp://selenium-hub:4443
+[36mchrome_1        |[0m 05:06:25.898 INFO [UnboundZmqEventBus.<init>] - Sockets created
+[36mchrome_1        |[0m 05:06:25.905 INFO [UnboundZmqEventBus.lambda$new$6] - Bus started
+[33mfirefox_1       |[0m 05:06:26.062 INFO [NodeServer.execute] - Reporting self as: http://172.19.0.4:5555
+[33mfirefox_1       |[0m 05:06:26.065 INFO [LoggingOptions.getTracer] - Using OpenTelemetry for tracing
+[33mfirefox_1       |[0m 05:06:26.066 INFO [UnboundZmqEventBus.<init>] - Connecting to tcp://selenium-hub:4442 and tcp://selenium-hub:4443
+[33mfirefox_1       |[0m 05:06:26.072 INFO [UnboundZmqEventBus.<init>] - Sockets created
+[33mfirefox_1       |[0m 05:06:26.072 INFO [UnboundZmqEventBus.lambda$new$6] - Bus started
+[36mchrome_1        |[0m 05:06:26.179 INFO [NodeOptions.report] - Adding Chrome for {"browserName": "chrome"} 2 times
+[33mfirefox_1       |[0m 05:06:26.609 INFO [NodeOptions.report] - Adding Firefox for {"browserName": "firefox"} 2 times
+[36mchrome_1        |[0m 05:06:26.724 INFO [NodeServer.execute] - Started Selenium node 4.0.0-alpha-7 (revision bd15e4e88a): http://172.19.0.3:5555
+[36mchrome_1        |[0m 05:06:26.725 INFO [NodeServer.execute] - Starting registration process for node id f9a75ba3-e8b5-470c-82ea-c0cc0923fbd2
+[33mfirefox_1       |[0m 05:06:27.080 INFO [NodeServer.execute] - Started Selenium node 4.0.0-alpha-7 (revision bd15e4e88a): http://172.19.0.4:5555
+[33mfirefox_1       |[0m 05:06:27.081 INFO [NodeServer.execute] - Starting registration process for node id a8b70c95-91f7-4c9c-9204-6c4e6d412a75
+[32mselenium-hub    |[0m 05:06:27.343 INFO [LocalDistributor.add] - Added node f9a75ba3-e8b5-470c-82ea-c0cc0923fbd2 at http://172.19.0.3:5555.
+[36mchrome_1        |[0m 05:06:27.623 INFO [LoggingOptions$1.lambda$export$1] - {"traceId": "e9b40125c3a198f020696cc00e478908","spanId": "d3b2d2ecd2dbd106","spanKind": "INTERNAL","eventTime": 1613970387615306773,"eventName": "HTTP request execution complete","attributes": {"http.status_code": 200,"http.handler_class": "org.openqa.selenium.remote.http.Route$TemplatizedRoute","http.url": "\u002fstatus","http.method": "GET"}}
+[36mchrome_1        |[0m 
+[32mselenium-hub    |[0m 05:06:27.681 INFO [LoggingOptions$1.lambda$export$1] - {"traceId": "e9b40125c3a198f020696cc00e478908","spanId": "b23a0dc340af89f9","spanKind": "INTERNAL","eventTime": 1613970387676583930,"eventName": "HTTP request received response","attributes": {"http.status_code": 200,"http.client_class": "org.openqa.selenium.remote.http.netty.NettyClient","http.url": "\u002fstatus","http.method": "GET"}}
+[32mselenium-hub    |[0m 
+[32mselenium-hub    |[0m 05:06:27.730 INFO [LocalDistributor.add] - Added node a8b70c95-91f7-4c9c-9204-6c4e6d412a75 at http://172.19.0.4:5555.
+[36mchrome_1        |[0m 05:06:27.729 INFO [NodeServer.lambda$execute$1] - Node has been added
+[36mchrome_1        |[0m 05:06:27.766 INFO [LoggingOptions$1.lambda$export$1] - {"traceId": "4237b7bc6e43e0776070350681ec8e83","spanId": "0459fde50987eb43","spanKind": "INTERNAL","eventTime": 1613970387765206828,"eventName": "HTTP request execution complete","attributes": {"http.status_code": 200,"http.handler_class": "org.openqa.selenium.remote.http.Route$TemplatizedRoute","http.url": "\u002fstatus","http.method": "GET"}}
+[36mchrome_1        |[0m 
+[32mselenium-hub    |[0m 05:06:27.771 INFO [LoggingOptions$1.lambda$export$1] - {"traceId": "4237b7bc6e43e0776070350681ec8e83","spanId": "cab8abb31a91052a","spanKind": "INTERNAL","eventTime": 1613970387770057654,"eventName": "HTTP request received response","attributes": {"http.status_code": 200,"http.client_class": "org.openqa.selenium.remote.http.netty.NettyClient","http.url": "\u002fstatus","http.method": "GET"}}
+[32mselenium-hub    |[0m 
+[33mfirefox_1       |[0m 05:06:27.916 INFO [LoggingOptions$1.lambda$export$1] - {"traceId": "2b150ba6cf9261281a9372dab89f6ae9","spanId": "3bb70a6cfc8ed157","spanKind": "INTERNAL","eventTime": 1613970387912491898,"eventName": "HTTP request execution complete","attributes": {"http.status_code": 200,"http.handler_class": "org.openqa.selenium.remote.http.Route$TemplatizedRoute","http.url": "\u002fstatus","http.method": "GET"}}
+[33mfirefox_1       |[0m 
+[32mselenium-hub    |[0m 05:06:27.953 INFO [LoggingOptions$1.lambda$export$1] - {"traceId": "2b150ba6cf9261281a9372dab89f6ae9","spanId": "f1e7a15d8bd45ae2","spanKind": "INTERNAL","eventTime": 1613970387951874416,"eventName": "HTTP request received response","attributes": {"http.status_code": 200,"http.client_class": "org.openqa.selenium.remote.http.netty.NettyClient","http.url": "\u002fstatus","http.method": "GET"}}
+[32mselenium-hub    |[0m 
+[32mselenium-hub    |[0m 05:06:27.974 INFO [GridModel.setAvailability] - Switching node f9a75ba3-e8b5-470c-82ea-c0cc0923fbd2 (uri: http://172.19.0.3:5555) from DOWN to UP
+[33mfirefox_1       |[0m 05:06:27.976 INFO [NodeServer.lambda$execute$1] - Node has been added
+[33mfirefox_1       |[0m 05:06:28.013 INFO [LoggingOptions$1.lambda$export$1] - {"traceId": "c997332d50c8c8bb9d8d65c92ec5845c","spanId": "ffe834122d2bd9c6","spanKind": "INTERNAL","eventTime": 1613970388012130158,"eventName": "HTTP request execution complete","attributes": {"http.status_code": 200,"http.handler_class": "org.openqa.selenium.remote.http.Route$TemplatizedRoute","http.url": "\u002fstatus","http.method": "GET"}}
+[33mfirefox_1       |[0m 
+[32mselenium-hub    |[0m 05:06:28.031 INFO [LoggingOptions$1.lambda$export$1] - {"traceId": "c997332d50c8c8bb9d8d65c92ec5845c","spanId": "d03bc615e8fc1ca9","spanKind": "INTERNAL","eventTime": 1613970388030660163,"eventName": "HTTP request received response","attributes": {"http.status_code": 200,"http.client_class": "org.openqa.selenium.remote.http.netty.NettyClient","http.url": "\u002fstatus","http.method": "GET"}}
+[32mselenium-hub    |[0m 
+[32mselenium-hub    |[0m 05:06:28.043 INFO [GridModel.setAvailability] - Switching node a8b70c95-91f7-4c9c-9204-6c4e6d412a75 (uri: http://172.19.0.4:5555) from DOWN to UP
