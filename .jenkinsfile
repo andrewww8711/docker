@@ -1,38 +1,56 @@
 pipeline
+
 {
+
 agent any
 
+
+
 stages
+
 {
+
 stage('Build')
+
 {
+
 steps
+
 {
-sh 'mvn clean'
-}
-}
+
+sh "mvn clean"
 
 }
+
+
+
+}
+
 stage('Deploy')
+
 {
-steps
-{
+
+steps{
+
 echo 'deploying the code'
 }
 }
+
 stage('Test')
+
 {
-steps
-{
-sh 'mvn test'
+
+steps{
+
+sh "mvn compile"
 }
 }
-stage('Release'){
-steps
+stage('Release')
 {
-sh 'mvn compile'
+steps{
+echo 'releasing the project'
+}
+}
 }
 }
 
-
-}
